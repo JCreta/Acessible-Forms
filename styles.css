@@ -212,7 +212,7 @@ input:focus, select:focus, textarea:focus{
 	box-shadow: 0 0 0 0.09em currentColor;
 }
 
-input:invalid, select:invalid, textarea:invalid{
+input:error, select:error, textarea:error{
 	background-color: #c71819;
 }
 
@@ -285,4 +285,5 @@ footer{
 	font-family: sans-serif;
 	text-align: center;
 }
+
 
